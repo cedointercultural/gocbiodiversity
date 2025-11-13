@@ -1,0 +1,2000 @@
+starting worker pid=14492 on localhost:11556 at 03:46:43.780
+starting worker pid=14570 on localhost:11556 at 03:46:43.976
+starting worker pid=14648 on localhost:11556 at 03:46:44.171
+starting worker pid=14726 on localhost:11556 at 03:46:44.363
+starting worker pid=14804 on localhost:11556 at 03:46:44.558
+starting worker pid=14882 on localhost:11556 at 03:46:44.753
+starting worker pid=14960 on localhost:11556 at 03:46:44.949
+starting worker pid=15038 on localhost:11556 at 03:46:45.144
+starting worker pid=15116 on localhost:11556 at 03:46:45.340
+starting worker pid=15194 on localhost:11556 at 03:46:45.534
+starting worker pid=15272 on localhost:11556 at 03:46:45.729
+starting worker pid=15350 on localhost:11556 at 03:46:45.923
+starting worker pid=15428 on localhost:11556 at 03:46:46.118
+starting worker pid=15506 on localhost:11556 at 03:46:46.314
+starting worker pid=15585 on localhost:11556 at 03:46:46.509
+starting worker pid=15663 on localhost:11556 at 03:46:46.702
+starting worker pid=15741 on localhost:11556 at 03:46:46.898
+starting worker pid=15819 on localhost:11556 at 03:46:47.093
+starting worker pid=15897 on localhost:11556 at 03:46:47.286
+starting worker pid=15975 on localhost:11556 at 03:46:47.482
+starting worker pid=16053 on localhost:11556 at 03:46:47.677
+starting worker pid=16131 on localhost:11556 at 03:46:47.872
+starting worker pid=16209 on localhost:11556 at 03:46:48.067
+starting worker pid=16287 on localhost:11556 at 03:46:48.260
+starting worker pid=16365 on localhost:11556 at 03:46:48.456
+starting worker pid=16443 on localhost:11556 at 03:46:48.650
+starting worker pid=16521 on localhost:11556 at 03:46:48.846
+starting worker pid=16599 on localhost:11556 at 03:46:49.042
+starting worker pid=16677 on localhost:11556 at 03:46:49.237
+starting worker pid=16755 on localhost:11556 at 03:46:49.432
+starting worker pid=16833 on localhost:11556 at 03:46:49.624
+starting worker pid=16911 on localhost:11556 at 03:46:49.817
+starting worker pid=16989 on localhost:11556 at 03:46:50.011
+starting worker pid=17067 on localhost:11556 at 03:46:50.206
+starting worker pid=17145 on localhost:11556 at 03:46:50.402
+starting worker pid=17223 on localhost:11556 at 03:46:50.597
+starting worker pid=17301 on localhost:11556 at 03:46:50.792
+starting worker pid=17379 on localhost:11556 at 03:46:50.987
+starting worker pid=17457 on localhost:11556 at 03:46:51.183
+starting worker pid=17535 on localhost:11556 at 03:46:51.379
+starting worker pid=17613 on localhost:11556 at 03:46:51.574
+starting worker pid=17691 on localhost:11556 at 03:46:51.786
+starting worker pid=17769 on localhost:11556 at 03:46:51.979
+starting worker pid=17847 on localhost:11556 at 03:46:52.174
+starting worker pid=17925 on localhost:11556 at 03:46:52.368
+starting worker pid=18003 on localhost:11556 at 03:46:52.563
+starting worker pid=18081 on localhost:11556 at 03:46:52.759
+starting worker pid=18159 on localhost:11556 at 03:46:52.954
+starting worker pid=18237 on localhost:11556 at 03:46:53.151
+starting worker pid=18315 on localhost:11556 at 03:46:53.346
+starting worker pid=18393 on localhost:11556 at 03:46:53.541
+starting worker pid=18471 on localhost:11556 at 03:46:53.735
+starting worker pid=18549 on localhost:11556 at 03:46:53.930
+starting worker pid=18627 on localhost:11556 at 03:46:54.125
+starting worker pid=18705 on localhost:11556 at 03:46:54.321
+starting worker pid=18783 on localhost:11556 at 03:46:54.516
+starting worker pid=18861 on localhost:11556 at 03:46:54.713
+starting worker pid=18939 on localhost:11556 at 03:46:54.908
+starting worker pid=19017 on localhost:11556 at 03:46:55.104
+starting worker pid=19095 on localhost:11556 at 03:46:55.297
+starting worker pid=19173 on localhost:11556 at 03:46:55.492
+starting worker pid=19251 on localhost:11556 at 03:46:55.689
+starting worker pid=19329 on localhost:11556 at 03:46:55.885
+$type
+[1] "wkt"
+
+$value
+[1] "POLYGON ((-106.0188 20.39913, -105.8688 20.39913, -105.8688 20.54913, -106.0188 20.54913, -106.0188 20.39913))"
+
+$param_name
+[1] "geometry"
+
+status: succeeded
+download is done, status: succeeded
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+$type
+[1] "wkt"
+
+$value
+[1] "POLYGON ((-106.0188 20.39913, -105.8688 20.39913, -105.8688 20.54913, -106.0188 20.54913, -106.0188 20.39913))"
+
+$param_name
+[1] "geometry"
+
+status: succeeded
+download is done, status: succeeded
+Download file size: 0 MB
+On disk at ./0030035-251025141854904.zip
+Rows: 2 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): species, taxonRank
+dbl  (5): decimalLatitude, decimalLongitude, day, month, year
+dttm (1): eventDate
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+$type
+[1] "wkt"
+
+$value
+[1] "POLYGON ((-106.0188 20.39913, -105.8688 20.39913, -105.8688 20.54913, -106.0188 20.54913, -106.0188 20.39913))"
+
+$param_name
+[1] "geometry"
+
+status: succeeded
+download is done, status: succeeded
+Download file size: 0 MB
+On disk at ./0030035-251025141854904.zip
+Rows: 2 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): species, taxonRank
+dbl  (5): decimalLatitude, decimalLongitude, day, month, year
+dttm (1): eventDate
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+$type
+[1] "wkt"
+
+$value
+[1] "POLYGON ((-106.0188 20.39913, -105.8688 20.39913, -105.8688 20.54913, -106.0188 20.54913, -106.0188 20.39913))"
+
+$param_name
+[1] "geometry"
+
+status: succeeded
+download is done, status: succeeded
+Download file size: 0 MB
+On disk at ./0030035-251025141854904.zip
+Rows: 2 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): species, taxonRank
+dbl  (5): decimalLatitude, decimalLongitude, day, month, year
+dttm (1): eventDate
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+$type
+[1] "wkt"
+
+$value
+[1] "POLYGON ((-106.0188 20.39913, -105.8688 20.39913, -105.8688 20.54913, -106.0188 20.54913, -106.0188 20.39913))"
+
+$param_name
+[1] "geometry"
+
+status: succeeded
+download is done, status: succeeded
+Download file size: 0 MB
+On disk at ./0030035-251025141854904.zip
+Rows: 2 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): species, taxonRank
+dbl  (5): decimalLatitude, decimalLongitude, day, month, year
+dttm (1): eventDate
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+$type
+[1] "wkt"
+
+$value
+[1] "POLYGON ((-106.0188 20.39913, -105.8688 20.39913, -105.8688 20.54913, -106.0188 20.54913, -106.0188 20.39913))"
+
+$param_name
+[1] "geometry"
+
+status: succeeded
+download is done, status: succeeded
+Download file size: 0 MB
+On disk at ./0030035-251025141854904.zip
+Rows: 2 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): species, taxonRank
+dbl  (5): decimalLatitude, decimalLongitude, day, month, year
+dttm (1): eventDate
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+$type
+[1] "wkt"
+
+$value
+[1] "POLYGON ((-106.0188 20.39913, -105.8688 20.39913, -105.8688 20.54913, -106.0188 20.54913, -106.0188 20.39913))"
+
+$param_name
+[1] "geometry"
+
+status: succeeded
+download is done, status: succeeded
+Download file size: 0 MB
+On disk at ./0030035-251025141854904.zip
+Rows: 2 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): species, taxonRank
+dbl  (5): decimalLatitude, decimalLongitude, day, month, year
+dttm (1): eventDate
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+$type
+[1] "wkt"
+
+$value
+[1] "POLYGON ((-106.0188 20.39913, -105.8688 20.39913, -105.8688 20.54913, -106.0188 20.54913, -106.0188 20.39913))"
+
+$param_name
+[1] "geometry"
+
+status: succeeded
+download is done, status: succeeded
+Download file size: 0 MB
+On disk at ./0030035-251025141854904.zip
+Rows: 2 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): species, taxonRank
+dbl  (5): decimalLatitude, decimalLongitude, day, month, year
+dttm (1): eventDate
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+$type
+[1] "wkt"
+
+$value
+[1] "POLYGON ((-105.8688 20.39913, -105.7188 20.39913, -105.7188 20.54913, -105.8688 20.54913, -105.8688 20.39913))"
+
+$param_name
+[1] "geometry"
+
+status: preparing
+status: running
+status: succeeded
+download is done, status: succeeded
+Download file size: 0.03 MB
+On disk at ./0030083-251025141854904.zip
+Rows: 431 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr (3): species, taxonRank, eventDate
+dbl (5): decimalLatitude, decimalLongitude, day, month, year
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+$type
+[1] "wkt"
+
+$value
+[1] "POLYGON ((-105.5688 20.39913, -105.4188 20.39913, -105.4188 20.54913, -105.5688 20.54913, -105.5688 20.39913))"
+
+$param_name
+[1] "geometry"
+
+$type
+[1] "wkt"
+
+$value
+[1] "POLYGON ((-105.4188 20.39913, -105.2688 20.39913, -105.2688 20.54913, -105.4188 20.54913, -105.4188 20.39913))"
+
+$param_name
+[1] "geometry"
+
+status: preparing
+status: preparing
+status: running
+status: running
+status: succeeded
+download is done, status: succeeded
+Download file size: 12.93 MB
+On disk at ./0030092-251025141854904.zip
+Rows: 89529 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr (3): species, taxonRank, eventDate
+dbl (5): decimalLatitude, decimalLongitude, day, month, year
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+status: succeeded
+download is done, status: succeeded
+Download file size: 7.63 MB
+On disk at ./0030091-251025141854904.zip
+Rows: 53023 Columns: 8
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr (3): species, taxonRank, eventDate
+dbl (5): decimalLatitude, decimalLongitude, day, month, year
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+starting worker pid=2290 on localhost:11564 at 18:14:56.315
+starting worker pid=2368 on localhost:11564 at 18:14:56.510
+starting worker pid=2446 on localhost:11564 at 18:14:56.705
+starting worker pid=2524 on localhost:11564 at 18:14:56.898
+starting worker pid=2602 on localhost:11564 at 18:14:57.091
+starting worker pid=2680 on localhost:11564 at 18:14:57.285
+starting worker pid=2758 on localhost:11564 at 18:14:57.479
+starting worker pid=2836 on localhost:11564 at 18:14:57.672
+starting worker pid=2914 on localhost:11564 at 18:14:57.865
+starting worker pid=2992 on localhost:11564 at 18:14:58.057
+starting worker pid=3070 on localhost:11564 at 18:14:58.252
+starting worker pid=3148 on localhost:11564 at 18:14:58.447
+starting worker pid=3226 on localhost:11564 at 18:14:58.640
+starting worker pid=3304 on localhost:11564 at 18:14:58.835
+starting worker pid=3382 on localhost:11564 at 18:14:59.027
+starting worker pid=3460 on localhost:11564 at 18:14:59.221
+starting worker pid=3538 on localhost:11564 at 18:14:59.416
+starting worker pid=3616 on localhost:11564 at 18:14:59.612
+starting worker pid=3694 on localhost:11564 at 18:14:59.806
+starting worker pid=3772 on localhost:11564 at 18:15:00.001
+starting worker pid=3850 on localhost:11564 at 18:15:00.196
+starting worker pid=3928 on localhost:11564 at 18:15:00.390
+starting worker pid=4006 on localhost:11564 at 18:15:00.584
+starting worker pid=4084 on localhost:11564 at 18:15:00.776
+starting worker pid=4162 on localhost:11564 at 18:15:00.969
+starting worker pid=4240 on localhost:11564 at 18:15:01.162
+starting worker pid=4318 on localhost:11564 at 18:15:01.356
+starting worker pid=4396 on localhost:11564 at 18:15:01.549
+starting worker pid=4474 on localhost:11564 at 18:15:01.743
+starting worker pid=4552 on localhost:11564 at 18:15:01.938
+starting worker pid=4633 on localhost:11564 at 18:15:02.133
+starting worker pid=4711 on localhost:11564 at 18:15:02.327
+starting worker pid=4789 on localhost:11564 at 18:15:02.522
+starting worker pid=4867 on localhost:11564 at 18:15:02.716
+starting worker pid=4945 on localhost:11564 at 18:15:02.928
+starting worker pid=5023 on localhost:11564 at 18:15:03.122
+starting worker pid=5101 on localhost:11564 at 18:15:03.316
+starting worker pid=5179 on localhost:11564 at 18:15:03.511
+starting worker pid=5257 on localhost:11564 at 18:15:03.704
+starting worker pid=5335 on localhost:11564 at 18:15:03.898
+starting worker pid=5413 on localhost:11564 at 18:15:04.093
+starting worker pid=5491 on localhost:11564 at 18:15:04.285
+starting worker pid=5569 on localhost:11564 at 18:15:04.478
+starting worker pid=5647 on localhost:11564 at 18:15:04.672
+starting worker pid=5725 on localhost:11564 at 18:15:04.867
+starting worker pid=5803 on localhost:11564 at 18:15:05.062
+starting worker pid=5881 on localhost:11564 at 18:15:05.256
+starting worker pid=5959 on localhost:11564 at 18:15:05.451
+starting worker pid=6037 on localhost:11564 at 18:15:05.646
+starting worker pid=6115 on localhost:11564 at 18:15:05.841
+starting worker pid=6193 on localhost:11564 at 18:15:06.036
+starting worker pid=6271 on localhost:11564 at 18:15:06.231
+starting worker pid=6349 on localhost:11564 at 18:15:06.424
+starting worker pid=6427 on localhost:11564 at 18:15:06.617
+starting worker pid=6505 on localhost:11564 at 18:15:06.809
+starting worker pid=6583 on localhost:11564 at 18:15:07.004
+starting worker pid=6661 on localhost:11564 at 18:15:07.197
+starting worker pid=6739 on localhost:11564 at 18:15:07.389
+starting worker pid=6817 on localhost:11564 at 18:15:07.584
+starting worker pid=6895 on localhost:11564 at 18:15:07.780
+starting worker pid=6973 on localhost:11564 at 18:15:07.974
+starting worker pid=7051 on localhost:11564 at 18:15:08.168
+starting worker pid=7129 on localhost:11564 at 18:15:08.363
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+starting worker pid=7285 on localhost:11564 at 18:15:27.502
+starting worker pid=7363 on localhost:11564 at 18:15:27.698
+starting worker pid=7441 on localhost:11564 at 18:15:27.892
+starting worker pid=7519 on localhost:11564 at 18:15:28.086
+starting worker pid=7597 on localhost:11564 at 18:15:28.280
+starting worker pid=7675 on localhost:11564 at 18:15:28.475
+starting worker pid=7753 on localhost:11564 at 18:15:28.670
+starting worker pid=7831 on localhost:11564 at 18:15:28.866
+starting worker pid=7909 on localhost:11564 at 18:15:29.061
+starting worker pid=7987 on localhost:11564 at 18:15:29.253
+starting worker pid=8065 on localhost:11564 at 18:15:29.447
+starting worker pid=8143 on localhost:11564 at 18:15:29.642
+starting worker pid=8221 on localhost:11564 at 18:15:29.836
+starting worker pid=8299 on localhost:11564 at 18:15:30.031
+starting worker pid=8377 on localhost:11564 at 18:15:30.225
+starting worker pid=8455 on localhost:11564 at 18:15:30.419
+starting worker pid=8533 on localhost:11564 at 18:15:30.615
+starting worker pid=8611 on localhost:11564 at 18:15:30.810
+starting worker pid=8689 on localhost:11564 at 18:15:31.005
+starting worker pid=8767 on localhost:11564 at 18:15:31.199
+starting worker pid=8845 on localhost:11564 at 18:15:31.394
+starting worker pid=8923 on localhost:11564 at 18:15:31.589
+starting worker pid=9001 on localhost:11564 at 18:15:31.784
+starting worker pid=9079 on localhost:11564 at 18:15:31.978
+starting worker pid=9157 on localhost:11564 at 18:15:32.173
+starting worker pid=9235 on localhost:11564 at 18:15:32.368
+starting worker pid=9313 on localhost:11564 at 18:15:32.562
+starting worker pid=9391 on localhost:11564 at 18:15:32.758
+starting worker pid=9469 on localhost:11564 at 18:15:32.953
+starting worker pid=9547 on localhost:11564 at 18:15:33.145
+starting worker pid=9625 on localhost:11564 at 18:15:33.341
+starting worker pid=9703 on localhost:11564 at 18:15:33.536
+starting worker pid=9781 on localhost:11564 at 18:15:33.731
+starting worker pid=9859 on localhost:11564 at 18:15:33.926
+starting worker pid=9937 on localhost:11564 at 18:15:34.121
+starting worker pid=10015 on localhost:11564 at 18:15:34.330
+starting worker pid=10093 on localhost:11564 at 18:15:34.525
+starting worker pid=10171 on localhost:11564 at 18:15:34.721
+starting worker pid=10249 on localhost:11564 at 18:15:34.914
+starting worker pid=10327 on localhost:11564 at 18:15:35.107
+starting worker pid=10405 on localhost:11564 at 18:15:35.301
+starting worker pid=10483 on localhost:11564 at 18:15:35.493
+starting worker pid=10561 on localhost:11564 at 18:15:35.688
+starting worker pid=10639 on localhost:11564 at 18:15:35.883
+starting worker pid=10717 on localhost:11564 at 18:15:36.078
+starting worker pid=10795 on localhost:11564 at 18:15:36.272
+starting worker pid=10873 on localhost:11564 at 18:15:36.467
+starting worker pid=10951 on localhost:11564 at 18:15:36.663
+starting worker pid=11029 on localhost:11564 at 18:15:36.858
+starting worker pid=11107 on localhost:11564 at 18:15:37.052
+starting worker pid=11185 on localhost:11564 at 18:15:37.247
+starting worker pid=11263 on localhost:11564 at 18:15:37.442
+starting worker pid=11341 on localhost:11564 at 18:15:37.637
+starting worker pid=11419 on localhost:11564 at 18:15:37.831
+starting worker pid=11497 on localhost:11564 at 18:15:38.025
+starting worker pid=11575 on localhost:11564 at 18:15:38.219
+starting worker pid=11653 on localhost:11564 at 18:15:38.415
+starting worker pid=11731 on localhost:11564 at 18:15:38.611
+starting worker pid=11809 on localhost:11564 at 18:15:38.804
+starting worker pid=11887 on localhost:11564 at 18:15:38.999
+starting worker pid=11965 on localhost:11564 at 18:15:39.194
+starting worker pid=12043 on localhost:11564 at 18:15:39.389
+starting worker pid=12121 on localhost:11564 at 18:15:39.586
+Error in socketConnection(master, port = port, blocking = TRUE, open = "a+b",  : 
+  cannot open the connection
+Calls: <Anonymous> -> workLoop -> makeSOCKmaster
+In addition: There were 17 warnings (use warnings() to see them)
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted

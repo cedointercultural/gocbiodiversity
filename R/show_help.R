@@ -1,0 +1,32 @@
+#' @title Mostrar ayuda sobre el uso del sistema
+#'
+#' @export
+show_help <- function() {
+  cat("\n")
+  cat("═══════════════════════════════════════════════════════════════\n")
+  cat("  SISTEMA DE CONSULTAS DE BIODIVERSIDAD - AYUDA\n")
+  cat("═══════════════════════════════════════════════════════════════\n\n")
+  cat("USO BÁSICO:\n")
+  cat("  results <- execute_biodiversity_queries(\n")
+  cat("    config_file = 'scripts/config/query_config.json',\n")
+  cat("    polygon_file = 'shapefiles/study_zone.gpkg',\n")
+  cat("    output_dir = 'data/query_results'\n")
+  cat("  )\n\n")
+  cat("PARÁMETROS:\n")
+  cat("  - config_file: Ruta al archivo JSON de configuración\n")
+  cat("  - polygon_file: Ruta al shapefile o GeoPackage del área de estudio\n")
+  cat("  - output_dir: Directorio donde se guardarán los resultados\n\n")
+  cat("BASES DE DATOS SOPORTADAS:\n")
+  cat("  - GBIF: Global Biodiversity Information Facility\n")
+  cat("  - OBIS: Ocean Biodiversity Information System\n")
+  cat("  - iNaturalist: Red social de naturalistas\n")
+  cat("  - eBird: Base de datos de aves\n")
+  cat("  - iDigBio: Integrated Digitized Biocollections\n\n")
+  cat("MÓDULOS CARGADOS:\n")
+  cat("  - data_utils.R: Utilidades de procesamiento de datos\n")
+  cat("  - spatial_utils.R: Utilidades espaciales\n")
+  cat("  - query_functions.R: Funciones de consulta a bases de datos\n\n")
+  cat("PARA MÁS INFORMACIÓN:\n")
+  cat("  Consulte el archivo README_database_queries.md\n")
+  cat("═══════════════════════════════════════════════════════════════\n\n")
+}

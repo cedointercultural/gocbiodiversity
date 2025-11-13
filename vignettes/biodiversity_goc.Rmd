@@ -1,0 +1,62 @@
+---
+title: "Retrieve biodiversity data"
+output: html_notebook
+---
+
+Test code to retrieve biodiversity data. New code is in /R
+Search parameters are in /scripts/config/query_config_final.json
+
+
+```{r}
+library(foreach)
+devtools::load_all()
+```
+
+#Run only gbif
+```{r}
+
+#config_file Ruta al archivo JSON de configuración
+# polygon_file Ruta al shapefile (opcional, si no está en config)
+# output_dir Directorio de salida (opcional)
+# parallel Usar paralelización (TRUE/FALSE, default: "auto" decide automáticamente)
+# n_cores Número de núcleos para paralelización (NULL = auto-detectar)
+
+config_file <- here::here("config","query_config_final.json")
+
+execute_bio_gbif_queries(config_file, polygon_file = NULL, output_dir = NULL)
+
+
+# goc <- sf::st_read(here::here("data","study_zone.gpkg"))
+# 
+# ggplot2::ggplot() +
+#   ggplot2::geom_sf(data = grid) +
+#   ggplot2::geom_sf(data = goc, colour = "red", fill = NA)
+#             
+# ggplot2::ggplot() +
+#   ggplot2::geom_sf(data = bbox) +
+#   ggplot2::geom_sf(data = grid_intersects, colour = "red", fill = NA) +
+#     ggplot2::geom_sf(data = goc, colour = "blue", fill = NA)
+
+
+```
+
+At some point need to filter the years we want
+```{r}
+     dplyr::filter(year>=config$databases$gbif$params$year_start) %>%
+ 
+```
+
+
+
+```{r}
+#config_file Ruta al archivo JSON de configuración
+# polygon_file Ruta al shapefile (opcional, si no está en config)
+# output_dir Directorio de salida (opcional)
+# parallel Usar paralelización (TRUE/FALSE, default: "auto" decide automáticamente)
+# n_cores Número de núcleos para paralelización (NULL = auto-detectar)
+
+config_file <- here::here("config","query_config_final.json")
+
+execute_biodiversity_queries(config_file, polygon_file = NULL, output_dir = NULL, parallel = "auto", n_cores = NULL)
+```
+
