@@ -1,15 +1,19 @@
 #' @title Consultar eBird
 #'
-#' @param grid_point Bounding box como string "min_lng,min_lat,max_lng,max_lat"
 #' @param config Lista de configuración eBird con parámetros de consulta
-#' @param box_id ID de la caja de búsqueda (para logging)
 #' @param this_source ID de la caja de búsqueda (para logging)
 #' @return Data frame con registros de eBird formateados
 #' @export
-#' @note eBird requiere API key configurada en .Renviron
+#' @note eBird requiere API key configurada
 #'
-query_ebird <- function(grid_point, config, box_id, this_source) {
+query_ebird <- function(grid_point, this_source) {
 
+  # Extraer parámetros de OBIS de la configuración
+  params_config <- config$databases$ebird$params
+
+  start_date <- as.Date("1900-01-01")
+  end_date <- as.Date("2023-01-10")
+  date_sequence <- seq(from = start_date, to = end_date, by = "day")
 
   #check if file already exists
 
@@ -20,8 +24,6 @@ query_ebird <- function(grid_point, config, box_id, this_source) {
 
       if(box_id==1){
 
-        # Extraer parámetros de OBIS de la configuración
-        params_config <- config$databases$ebird$params
 
         api_key <- paste0("EBIRD_KEY = ",params_config$api_key)
 

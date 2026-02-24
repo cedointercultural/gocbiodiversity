@@ -12,18 +12,20 @@ library(foreach)
 devtools::load_all()
 ```
 
-#Run only gbif
-```{r}
+
+Use loop to get data from GBIF, OBIS, iNaturalist
+```{r gbif_data, echo=TRUE}
 
 #config_file Ruta al archivo JSON de configuración
 # polygon_file Ruta al shapefile (opcional, si no está en config)
 # output_dir Directorio de salida (opcional)
 # parallel Usar paralelización (TRUE/FALSE, default: "auto" decide automáticamente)
 # n_cores Número de núcleos para paralelización (NULL = auto-detectar)
+#No usamos ebird porque la APP no está diseñada para bajar grandes cantidades de datos
 
 config_file <- here::here("config","query_config_final.json")
 
-execute_bio_gbif_queries(config_file, polygon_file = NULL, output_dir = NULL)
+execute_bio_queries(config_file, polygon_file = NULL, output_dir = NULL)
 
 
 # goc <- sf::st_read(here::here("data","study_zone.gpkg"))
@@ -39,6 +41,9 @@ execute_bio_gbif_queries(config_file, polygon_file = NULL, output_dir = NULL)
 
 
 ```
+
+
+
 
 At some point need to filter the years we want
 ```{r}

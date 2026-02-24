@@ -4,7 +4,7 @@
 \alias{query_obis}
 \title{Consultar OBIS (Ocean Biodiversity Information System)}
 \usage{
-query_obis(grid_row, config, box_id = 1, log_function)
+query_obis(grid_row, config, box_id, this_source)
 }
 \arguments{
 \item{grid_row}{Fila del grid con información espacial completa}

@@ -9,10 +9,23 @@
 query_gbif <- function(grid_row, config, box_id, this_source) {
 
 
+  results.file <- here::here(
+    "data",
+    "query_results",
+    this_source,
+    paste0(this_source, "_results_", box_id, ".csv")
+  )
+
+  print(box_id)
+  if(file.exists(results.file)==FALSE) {
+
+  print(paste0("Extracting ",this_source, " ", box_id))
+
+    tryCatch({
     # Obtener formato espacial optimizado para GBIF
     spatial_format <- get_spatial_format_for_api("gbif", grid_row)
 
-    print(spatial_format)
+  #  print(spatial_format)
 
      # Extraer parámetros de GBIF de la configuración
     gbif_params <- config$databases$gbif$params
@@ -38,44 +51,35 @@ query_gbif <- function(grid_row, config, box_id, this_source) {
    # gbif_result <- do.call(rgbif::occ_download, params)
 
 
-    request_info <- rgbif::occ_download(rgbif::pred_within(spatial_format$value),format = "SIMPLE_CSV")
+    request_info <- rgbif::occ_download(rgbif::pred_within(spatial_format$value),
+                                        format = "SIMPLE_CSV")
 
     rgbif::occ_download_wait(request_info)
 
-    request_result <- rgbif::occ_download_get(request_info) %>%
-      rgbif::occ_download_import()
+    request_result <- rgbif::occ_download_get(request_info)
 
-    zip.file <- list.files(pattern="*.zip", full.names = TRUE)
+    rgbif_download<- rgbif::occ_download_import(request_result)
 
-    unzip(zip.file, exdir = here::here("data","query_results","gbif_raw"))
-
-    new.name <- gsub(".zip",".csv",zip.file) %>%
-      gsub("./","", .)
+    zip.file <- list.files(path=here::here(), pattern="*.zip", full.names = FALSE)
+    #print(zip.file)
 
     save.path <- here::here("data","query_results","gbif_raw")
     system(paste0("mv ", zip.file," ", save.path))
 
-    rec.data <- readr::read_delim(file=here::here("data","query_results","gbif_raw",new.name), delim="\t", col_select = c("species", "decimalLatitude", "decimalLongitude", "year", "month", "day", "eventDate", "taxonRank"),
-                                  col_types = readr::cols(
-                                    species = readr::col_character(),
-                                    decimalLatitude = readr::col_double(),
-                                    decimalLongitude = readr::col_double(),
-                                    year = readr::col_character(),
-                                    month = readr::col_character(),
-                                    date = readr::col_character(),
-                                    eventDate = readr::col_date(format = "%Y-%m-%d"),
-                                    taxonRank = readr::col_character())) %>%
-      dplyr::rename(lat=decimalLatitude, lon = decimalLongitude, date_recorded = eventDate)
     # Procesar datos
 
-    formatted_result_df <-  rec.data %>%
+    formatted_result_df <-  rgbif_download %>%
       dplyr::filter(taxonRank=="SPECIES") %>%
       dplyr::filter(!is.na(species)) %>%
       dplyr::mutate(source=this_source)
 
-    readr::write_csv(formatted_result_df,here::here("data","query_results","gbif", paste0("gbif_results_", box_id,".csv")), append = FALSE)
+    readr::write_csv(formatted_result_df,results.file, append = FALSE)
 
-    result <- "done"
+
+    })
+    }
+
+result <- "done"
 
 return(result)
 

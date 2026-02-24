@@ -20,7 +20,7 @@ get_spatial_format_for_api <- function(api_type, grid_row) {
            # OBIS requiere WKT pero desde bbox
            list(
              type = "wkt",
-             value = bbox_to_wkt(grid_row$bbox, "obis"),
+             value =  sf::st_as_text(grid_row),
              param_name = "geometry"
            )
          },
@@ -29,10 +29,10 @@ get_spatial_format_for_api <- function(api_type, grid_row) {
            list(
              type = "bbox_params",
              value = list(
-               swlat = grid_row$min_lat,
-               swlng = grid_row$min_lon,
-               nelat = grid_row$max_lat,
-               nelng = grid_row$max_lon
+               swlat = as.numeric((sf::st_bbox(grid_row))$ymin),
+               swlng = as.numeric((sf::st_bbox(grid_row))$xmin),
+               nelat = as.numeric((sf::st_bbox(grid_row))$ymax),
+               nelng = as.numeric((sf::st_bbox(grid_row))$xmax)
              ),
              param_name = "bbox_params"
            )

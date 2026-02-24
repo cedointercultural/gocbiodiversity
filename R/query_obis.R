@@ -3,69 +3,66 @@
 #' @param grid_row Fila del grid con información espacial completa
 #' @param config Lista de configuración OBIS con parámetros de consulta
 #' @param box_id ID de la caja de búsqueda (para logging)
-#' @param log_function Función para registrar mensajes (opcional)
-#' @return Data frame con registros de OBIS formateados
+#' @param this_source Nombre de la fuente
+#' @return Guarda los registros y reporta terminado
 #' @export
-query_obis <- function(grid_row, config, box_id = 1, log_function) {
+query_obis <- function(grid_row, config, box_id, this_source) {
+  #check if file already exists
 
-  tryCatch({
-    log_function(paste("Consultando OBIS - Box", box_id, "..."))
+  results.file <- here::here(
+    "data",
+    "query_results",
+    this_source,
+    paste0(this_source, "_results_", box_id, ".csv")
+  )
 
-    # Obtener formato espacial optimizado para OBIS
-    spatial_format <- get_spatial_format_for_api("obis", grid_row)
+  if (file.exists(results.file) == FALSE) {
+    tryCatch({
+      print(paste0("Extracting ", this_source, " ", box_id))
 
-    if (is.null(spatial_format$value) || nchar(trimws(spatial_format$value)) == 0) {
-      log_function(paste("✗ Error OBIS - Box", box_id, ": geometría vacía"), log_file, level="INFO")
-      return(data.frame())
-    }
+      # Obtener formato espacial optimizado para OBIS
+      spatial_format <- get_spatial_format_for_api(api_type = this_source, grid_row)
 
-    # Extraer parámetros de OBIS de la configuración
-    obis_params_config <- config$databases$obis$params
+      if (is.null(spatial_format$value) ||
+          nchar(trimws(spatial_format$value)) == 0) {
+        log_function(paste("✗ Error OBIS - Box", box_id, ": geometría vacía"),
+                     log_file,
+                     level = "INFO")
+        return(data.frame())
+      }
 
-    # Ejecutar consulta a OBIS con parámetros correctos
-    obis_params <- list(
-      geometry = spatial_format$value
-      # NOTA: OBIS no acepta parámetro 'size', usa paginación automática
-    )
+      # Extraer parámetros de OBIS de la configuración
+      obis_params_config <- config$databases$obis$params
 
-    # Agregar filtro de años si está configurado
-    if (!is.null(obis_params_config$year_start) && !is.null(obis_params_config$year_end)) {
-      obis_params$startdate <- paste0(obis_params_config$year_start, "-01-01")
-      obis_params$enddate <- paste0(obis_params_config$year_end, "-12-31")
-    }
+      # Ejecutar consulta a OBIS con parámetros correctos
+      obis_params <- list(
+        geometry = spatial_format$value
+        # NOTA: OBIS no acepta parámetro 'size', usa paginación automática
+      )
 
-    obis_result <- do.call(robis::occurrence, obis_params)
+      # Agregar filtro de años si está configurado
+      if (!is.null(obis_params_config$year_start) &&
+          !is.null(obis_params_config$year_end)) {
+        obis_params$startdate <- paste0(obis_params_config$year_start, "-01-01")
+        obis_params$enddate <- paste0(obis_params_config$year_end, "-12-31")
+      }
 
-    # Verificar resultados
-    if (is.null(obis_result) ||
-        !is.data.frame(obis_result) ||
-        nrow(obis_result) == 0) {
-      log_function(paste("⚠ OBIS - Box", box_id, ": sin resultados"), log_file, level="INFO")
-      return(data.frame())
-    }
+      obis_result <- do.call(robis::occurrence, obis_params)
 
-    # Procesar datos
-    data <- obis_result
+      if (("species" %in% names(obis_result)) == TRUE) {
+        formatted_result_df <-  obis_result %>%
+          dplyr::filter(!is.na(species)) %>%
+          dplyr::mutate(source = this_source)
 
-    result_df <- data.frame(
-      species = sapply(data$scientificName, function(x)
-        if (!is.na(x)) clean_species_name(x) else NA_character_),
-      lon = as.numeric(data$decimalLongitude),
-      lat = as.numeric(data$decimalLatitude),
-      year = if("year" %in% names(data)) as.numeric(data$year) else NA_real_,
-      month = if("month" %in% names(data)) as.numeric(data$month) else NA_real_,
-      day = if("day" %in% names(data)) as.numeric(data$day) else NA_real_,
-      date_recorded = if("eventDate" %in% names(data)) as.character(data$eventDate) else NA_character_,
-      taxonRank = if("taxonRank" %in% names(data)) as.character(data$taxonRank) else NA_character_,
-      stringsAsFactors = FALSE
-    )
+        readr::write_csv(formatted_result_df, results.file, append = FALSE)
 
-    log_function(paste("✓ OBIS - Box", box_id, ":", nrow(result_df), "registros"), log_file, level="INFO")
 
-    return(format_biodiversity_data(result_df, "OBIS"))
+      }
 
-  }, error = function(e) {
-    log_function(paste("✗ Error OBIS - Box", box_id, ":", e$message), log_file, level="INFO")
-    return(data.frame())
-  })
+
+    })
+  }
+
+  result <- "done"
+  return(result)
 }

@@ -6,60 +6,58 @@
 #' @param log_function Función para registrar mensajes (opcional)
 #' @return Data frame con registros de iDigBio formateados
 #' @export
-query_idigbio <- function(grid_row, config, box_id = 1, log_function) {
+query_idigbio <- function(grid_row, config, box_id, this_source) {
 
+  results.file <- here::here(
+    "data",
+    "query_results",
+    this_source,
+    paste0(this_source, "_results_", box_id, ".csv")
+  )
+
+  print(box_id)
+  if(file.exists(results.file)==FALSE) {
+
+print(paste0("Extracting ",this_source, " ", box_id))
   tryCatch({
-    log_function(paste("Consultando iDigBio - Box", box_id, "..."))
 
     # Obtener formato espacial optimizado para iDigBio
-    spatial_format <- get_spatial_format_for_api("idigbio", grid_row)
+    coords <- sf::st_coordinates(grid_row) %>%
+      as.numeric()
 
-    if (is.null(spatial_format$value)) {
-      log_function(paste("✗ Error iDigBio - Box", box_id, ": parámetros espaciales vacíos"), log_file, level="INFO")
-      return(data.frame())
-    }
+    spatial_format <- list(
+      geopoint=list(
+        type = "geo_bounding_box",
+        top_left = list( lat = coords[8], lon = coords[1]),
+        bottom_right = list(lat = coords[6], lon = coords[2])
+      ))
 
-    # Extraer parámetros de iDigBio de la configuración
+     # Extraer parámetros de iDigBio de la configuración
     idigbio_params_config <- config$databases$idigbio$params
 
     # Construcción del query para iDigBio con formato correcto
     # iDigBio usa 'geopoint' (minúscula) y formato específico
     idigbio_result <- ridigbio::idig_search_records(
-      rq = list(
-        geopoint = spatial_format$value
-      ),
+      rq = spatial_format,
       limit = min(idigbio_params_config$records_per_box, 100000)  # iDigBio permite hasta 100k
     )
 
-    if (is.null(idigbio_result) ||
-        !is.data.frame(idigbio_result) ||
-        nrow(idigbio_result) == 0) {
-      log_function(paste("⚠ iDigBio - Box", box_id, ": sin resultados"), log_file, level="INFO")
-      return(data.frame())
-    }
 
     # Procesar datos
-    data <- idigbio_result
+    result_df <- idigbio_result %>%
+      dplyr::filter(!is.na(scientificname)) %>%
+      dplyr::mutate(source=this_source)
 
-    result_df <- data.frame(
-      species = sapply(data$scientificname, function(x)
-        if (!is.na(x)) clean_species_name(x) else NA_character_),
-      lon = as.numeric(data$geopoint_lon),
-      lat = as.numeric(data$geopoint_lat),
-      year = if("yearcollected" %in% names(data)) as.numeric(data$yearcollected) else NA_real_,
-      month = NA_real_,
-      day = NA_real_,
-      date_recorded = if("datecollected" %in% names(data)) as.character(data$datecollected) else NA_character_,
-      taxonRank = NA_character_,
-      stringsAsFactors = FALSE
-    )
+    readr::write_csv(result_df, results.file, append = FALSE)
 
-    log_function(paste("✓ iDigBio - Box", box_id, ":", nrow(result_df), "registros"), log_file, level="INFO")
+    Sys.sleep(3)
 
-    return(format_biodiversity_data(result_df, "iDigBio"))
 
-  }, error = function(e) {
-    log_function(paste("✗ Error iDigBio - Box", box_id, ":", e$message), log_file, level="INFO")
-    return(data.frame())
   })
+
+
+  result <- "done"
+
+  return(result)
+  }
 }

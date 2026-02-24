@@ -29,7 +29,7 @@
       "name": "Ocean Biodiversity Information System",
       "params": {
         "records_per_box": 15000,
-        "year_start": 2000,
+        "year_start": 1900,
         "year_end": 2025,
         "taxon_rank": null,
         "has_coordinate": true
@@ -40,9 +40,9 @@
       "name": "eBird",
       "params": {
         "records_per_box": 100,
-        "year_start": 2000,
+        "year_start": 1900,
         "year_end": 2025,
-        "api_key": null,
+        "api_key": "6rjgt0tbtp0b",
         "region_code": null
       }
     },
@@ -50,8 +50,8 @@
       "enabled": false,
       "name": "iDigBio",
       "params": {
-        "records_per_box": 100,
-        "year_start": 2000,
+        "records_per_box": 100000,
+        "year_start": 1900,
         "year_end": 2025,
         "taxon_rank": null
       }
@@ -60,8 +60,8 @@
       "enabled": false,
       "name": "iNaturalist",
       "params": {
-        "records_per_box": 100,
-        "year_start": 2015,
+        "records_per_box": 1000,
+        "year_start": 1900,
         "year_end": 2025,
         "page_size": 100
       }
